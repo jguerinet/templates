@@ -1,4 +1,4 @@
-# Readme File Template
+# README File Template
 
 ## Summary
 Insert a quick summary about this repository.
@@ -8,9 +8,6 @@ Give some instructions on how to use this.
 
 ## Branches
 * Branch: List them here if needed
-
-##Packages
-* Package: List them here if needed
 
 ## Gradle Dependencies
 * Gradle Dependency: List them here
@@ -22,7 +19,7 @@ Give some instructions on how to use this.
 See the [Change Log](CHANGELOG.md).
 
 ## Copyright
-	 Copyright 2015 Julien Guerinet
+	 Copyright 2016 Julien Guerinet
 
 	 Licensed under the Apache License, Version 2.0 (the "License");
 	 you may not use this file except in compliance with the License.
