@@ -1,0 +1,32 @@
+[alias]
+	lg = log --color --graph --abbrev-commit\n           --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset'
+	aa = add .
+	ac = !git add -A && git commit -m
+	cm = !git commit -m
+	pu = "!git push -u origin \"$(git rev-parse --abbrev-ref HEAD)\""
+	pt = "!git push && git push --tags"
+	st = status
+	br = branch -v
+	rh = reset --hard
+	ps = push 
+	pl = pull
+
+	co = checkout
+	coj = !git checkout JG/$1 && :
+	coi = !git checkout JG/I/$1 && :
+	cot = !git checkout JG/T/$1 && :
+	cob = !git checkout JG/B/$1 && :
+	
+	cb = checkout -b
+	cbj = !git checkout -b JG/$1 && :
+	cbi = !git checkout -b JG/I/$1 && :
+	cbt = !git checkout -b JG/T/$1 && :
+	cbb = !git checkout -b JG/B/$1 && :
+	
+	db = branch -d
+	dbj = !git branch -d JG/$1 && :
+	dbi = !git branch -d JG/I/$1 && :
+	dbt = !git branch -d JG/T/$1 && :
+	dbb = !git branch -d JG/B/$1 && :
+
+	sad = !git stash apply && git stash drop
