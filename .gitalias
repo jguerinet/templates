@@ -29,4 +29,5 @@
 	dbt = !git branch -d JG/T/$1 && :
 	dbb = !git branch -d JG/B/$1 && :
 
+	sl = stash list 
 	sad = !git stash apply && git stash drop
