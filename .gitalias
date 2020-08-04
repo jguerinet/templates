@@ -33,4 +33,4 @@
 	sl = stash list 
 	sad = !git stash apply && git stash drop
 
-	dt = !git tag -d $1 && git push origin --delete $1
+	dt = !sh -c 'git tag -d $1 && git push origin --delete $1' -
